@@ -1,0 +1,11 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Do Nothing') {
+            steps {
+                echo 'This stage does nothing.'
+            }
+        }
+    }
+}
